@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "langgraph-course"
+version = "0.1.0"
+description = ""
+authors = ["Eden Marco <emarco177@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+beautifulsoup4 = "^4.12.3"
+langchain-community = "^0.0.38"
+tiktoken = "^0.6.0"
+langchainhub = "^0.1.15"
+langchain = "^0.1.20"
+langgraph = "^0.0.48"
+tavily-python = "^0.3.3"
+langchain-openai = "^0.1.6"
+python-dotenv = "^1.0.1"
+black = "^24.4.2"
+isort = "^5.13.2"
+pytest = "^8.2.0"
+langchain-chroma = "^0.1.0"
+unstructured = "^0.16.23"
+streamlit = "^1.42.2"
+anthropic = "^0.49.0"
+openai = "^1.65.2"
+pinecone = "^6.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

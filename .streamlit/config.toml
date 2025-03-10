@@ -1,0 +1,19 @@
+[browser]
+gatherUsageStats = false
+
+[ui]
+hideTopBar = false
+
+[theme]
+base = "light"
+primaryColor = "#2c3e50"
+backgroundColor = "#f8f9fa"
+secondaryBackgroundColor = "#e9ecef"
+textColor = "#212529"
+font = "sans serif"
+
+[client]
+toolbarMode = "auto"
+
+[server]
+headless = true 
