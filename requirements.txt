@@ -13,3 +13,4 @@ streamlit==1.42.2
 anthropic==0.49.0
 openai==1.65.2
 pinecone==6.0.1 
+sqlite3>=3.35.0
